@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 // socket io
 const io = require("socket.io")(sever, {
   cors: {
-    origin: "http://tamhuy.surge.sh"
+    origin: "http://tamhuy.cf"
   },
 });
 io.on("connection", (socket) => {
